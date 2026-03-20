@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who We Are | Adey CPCA</title>
+    <meta name="description"
+        content="Meet the team and governance behind Adey Cerebral Palsy Charitable Association in Ethiopia.">
+    <link rel="icon" type="image/x-icon" href="assets/images/LOGO ADEY.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>tailwind.config = { theme: { extend: { colors: { brand: { green: '#166534', mid: '#16a34a', light: '#dcfce7', yellow: '#eab308', dark: '#0f172a' } } } } }</script>
+</head>
+
+<body class="text-gray-800 bg-white">
+
+    <!-- NAVBAR -->
+    <header id="navbar" class="fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="assets/images/LOGO ADEY.jpg" alt="Adey CPCA Logo"
+                        class="h-11 w-11 rounded-full object-cover border-2 border-brand-yellow shadow">
+                    <div class="hidden sm:block leading-tight">
+                        <div class="font-bold text-brand-green text-lg">Adey CPCA</div>
+                        <div class="text-xs text-gray-500">Established August 2024</div>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-1">
+                    <a href="index.html"
+                        class="nav-link px-3 py-2 text-gray-600 hover:text-brand-green font-semibold text-sm rounded-lg hover:bg-green-50 transition-all">Home</a>
+                    <a href="who-we-are.html"
+                        class="nav-link active px-3 py-2 text-brand-green font-semibold text-sm rounded-lg bg-green-50">Who
+                        We Are</a>
+                    <a href="what-we-do.html"
+                        class="nav-link px-3 py-2 text-gray-600 hover:text-brand-green font-semibold text-sm rounded-lg hover:bg-green-50 transition-all">What
+                        We Do</a>
+                    <a href="get-involved.html"
+                        class="nav-link px-3 py-2 text-gray-600 hover:text-brand-green font-semibold text-sm rounded-lg hover:bg-green-50 transition-all">Get
+                        Involved</a>
+                    <a href="events.html"
+                        class="nav-link px-3 py-2 text-gray-600 hover:text-brand-green font-semibold text-sm rounded-lg hover:bg-green-50 transition-all">Events</a>
+                    <a href="safeguarding.html"
+                        class="nav-link px-3 py-2 text-gray-600 hover:text-brand-green font-semibold text-sm rounded-lg hover:bg-green-50 transition-all">Safeguarding</a>
+                    <a href="donate.html"
+                        class="ml-3 bg-brand-yellow text-brand-dark px-5 py-2.5 rounded-full text-sm font-bold hover:bg-yellow-400 transition-all shadow flex items-center gap-2"><i
+                            data-lucide="heart" class="w-4 h-4"></i> Donate</a>
+                </nav>
+                <div class="lg:hidden flex items-center gap-2">
+                    <a href="donate.html"
+                        class="bg-brand-yellow text-brand-dark px-4 py-2 rounded-full text-sm font-bold shadow">Donate</a>
+                    <button id="mobile-menu-btn" class="p-2 rounded-lg hover:bg-gray-100 transition-all">
+                        <i data-lucide="menu" id="menu-icon-open" class="w-6 h-6 text-gray-700"></i>
+                        <i data-lucide="x" id="menu-icon-close" class="w-6 h-6 text-gray-700 hidden"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="lg:hidden bg-white border-t border-gray-100 shadow-xl overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 py-4 space-y-1">
+                <a href="index.html"
+                    class="mobile-link block px-4 py-3 text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-xl font-semibold text-sm transition-all">Home</a>
+                <a href="who-we-are.html"
+                    class="mobile-link block px-4 py-3 text-brand-green bg-green-50 rounded-xl font-semibold text-sm">Who
+                    We Are</a>
+                <a href="what-we-do.html"
+                    class="mobile-link block px-4 py-3 text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-xl font-semibold text-sm transition-all">What
+                    We Do</a>
+                <a href="get-involved.html"
+                    class="mobile-link block px-4 py-3 text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-xl font-semibold text-sm transition-all">Get
+                    Involved</a>
+                <a href="events.html"
+                    class="mobile-link block px-4 py-3 text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-xl font-semibold text-sm transition-all">Events</a>
+                <a href="safeguarding.html"
+                    class="mobile-link block px-4 py-3 text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-xl font-semibold text-sm transition-all">Safeguarding</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- PAGE HERO -->
+        <section class="page-hero pt-20 pb-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center py-20">
+                <span class="section-label bg-white/10 text-white border border-white/20">Our Organization</span>
+                <h1 class="text-4xl sm:text-5xl font-black text-white mt-4 mb-5">Who We Are</h1>
+                <p class="text-green-100 text-lg max-w-2xl mx-auto">A passionate team united by a single cause —
+                    ensuring every child with cerebral palsy in Ethiopia has a chance to thrive.</p>
+            </div>
+        </section>
+
+        <!-- OUR STORY -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row gap-14 items-center">
+                    <div class="lg:w-1/2 reveal">
+                        <span class="section-label">Our Story</span>
+                        <h2 class="text-3xl font-black text-gray-900 mt-2 mb-5">Born from lived experience</h2>
+                        <p class="text-gray-700 leading-relaxed mb-5">Adey CPCA was founded in August 2024 by families
+                            who experienced firsthand the challenges of raising a child with cerebral palsy in Ethiopia
+                            — the lack of awareness, the scarcity of therapy services, and the social stigma that
+                            isolates families.</p>
+                        <p class="text-gray-700 leading-relaxed mb-5">The name "Adey" refers to the bright yellow Meskel
+                            flower — a symbol of hope, new seasons, and resilience in Ethiopian culture. Like the
+                            flower, we bloom against all odds.</p>
+                        <p class="text-gray-700 leading-relaxed">Licensed by the Authority for Civil Society
+                            Organizations (ACSO), we operate with full transparency and accountability to the children,
+                            families, and communities we serve.</p>
+                    </div>
+                    <div class="lg:w-1/2 reveal reveal-delay-1">
+                        <div class="relative">
+                            <img src="assets/images/photo_2025-11-29_18-27-14.jpg" alt="Adey CPCA founding"
+                                class="rounded-3xl object-cover w-full shadow-2xl" style="height:400px;">
+                            <div
+                                class="absolute -bottom-5 -right-5 bg-brand-yellow rounded-2xl p-5 shadow-xl text-brand-dark">
+                                <div class="font-black text-3xl">2024</div>
+                                <div class="text-sm font-semibold">Year Founded</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VISION MISSION VALUES -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 reveal">
+                    <span class="section-label">Our Foundation</span>
+                    <h2 class="text-3xl md:text-4xl font-black text-gray-900 mt-2">Vision, Mission & Values</h2>
+                    <div class="yellow-divider mx-auto"></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-3xl shadow-sm hover-lift reveal text-center">
+                        <div class="w-16 h-16 bg-brand-light rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <i data-lucide="eye" class="w-8 h-8 text-brand-green"></i></div>
+                        <h3 class="text-xl font-bold text-brand-green mb-4">Vision</h3>
+                        <p class="text-gray-600 leading-relaxed">An inclusive society where children with CP in Ethiopia
+                            receive the care, education, and opportunities they deserve — enabling dignified, fulfilling
+                            lives.</p>
+                    </div>
+                    <div
+                        class="bg-brand-green text-white p-8 rounded-3xl shadow-sm hover-lift reveal reveal-delay-1 text-center">
+                        <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-6"><i
+                                data-lucide="target" class="w-8 h-8 text-brand-yellow"></i></div>
+                        <h3 class="text-xl font-bold text-brand-yellow mb-4">Mission</h3>
+                        <p class="text-green-100 leading-relaxed">To raise awareness, improve healthcare access, empower
+                            families, and promote inclusive education and advocacy for children with CP in Ethiopia.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-sm hover-lift reveal reveal-delay-2">
+                        <div class="w-16 h-16 bg-brand-light rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <i data-lucide="gem" class="w-8 h-8 text-brand-green"></i></div>
+                        <h3 class="text-xl font-bold text-brand-green mb-4 text-center">Core Values</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-2 text-gray-700 text-sm"><i data-lucide="check-circle-2"
+                                    class="w-4 h-4 text-brand-green flex-shrink-0"></i> Inclusivity</li>
+                            <li class="flex items-center gap-2 text-gray-700 text-sm"><i data-lucide="check-circle-2"
+                                    class="w-4 h-4 text-brand-green flex-shrink-0"></i> Empowerment</li>
+                            <li class="flex items-center gap-2 text-gray-700 text-sm"><i data-lucide="check-circle-2"
+                                    class="w-4 h-4 text-brand-green flex-shrink-0"></i> Advocacy</li>
+                            <li class="flex items-center gap-2 text-gray-700 text-sm"><i data-lucide="check-circle-2"
+                                    class="w-4 h-4 text-brand-green flex-shrink-0"></i> Sustainability</li>
+                            <li class="flex items-center gap-2 text-gray-700 text-sm"><i data-lucide="check-circle-2"
+                                    class="w-4 h-4 text-brand-green flex-shrink-0"></i> Transparency</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TEAM -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 reveal">
+                    <span class="section-label">Our People</span>
+                    <h2 class="text-3xl md:text-4xl font-black text-gray-900 mt-2">Key Personnel</h2>
+                    <div class="yellow-divider mx-auto"></div>
+                    <p class="mt-5 text-gray-600 max-w-xl mx-auto">Led by dedicated professionals committed to
+                        accountability and sustainable impact.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 rounded-3xl p-8 text-center border border-gray-100 hover-lift reveal">
+                        <div
+                            class="w-24 h-24 bg-brand-light rounded-full mx-auto mb-5 flex items-center justify-center">
+                            <i data-lucide="user" class="w-10 h-10 text-brand-green"></i></div>
+                        <h3 class="text-xl font-bold text-gray-900">Mastewal S. Shibeshi</h3>
+                        <p class="text-brand-green font-semibold text-sm mt-1 mb-4">Founder & Executive Director</p>
+                        <p class="text-gray-600 text-sm leading-relaxed">Oversees strategic planning, partnerships, and
+                            overall organizational leadership. Passionate about disability inclusion and systemic
+                            change.</p>
+                    </div>
+                    <div class="bg-brand-green text-white rounded-3xl p-8 text-center hover-lift reveal reveal-delay-1">
+                        <div class="w-24 h-24 bg-white/10 rounded-full mx-auto mb-5 flex items-center justify-center"><i
+                                data-lucide="user" class="w-10 h-10 text-white"></i></div>
+                        <h3 class="text-xl font-bold">Zelalem K. Tesfaye</h3>
+                        <p class="text-brand-yellow font-semibold text-sm mt-1 mb-4">Program Finance & Grant Manager</p>
+                        <p class="text-green-200 text-sm leading-relaxed">Leads program development and financial
+                            management, ensuring transparent delivery of health and education initiatives.</p>
+                    </div>
+                    <div
+                        class="bg-gray-50 rounded-3xl p-8 text-center border border-gray-100 hover-lift reveal reveal-delay-2">
+                        <div
+                            class="w-24 h-24 bg-brand-light rounded-full mx-auto mb-5 flex items-center justify-center">
+                            <i data-lucide="user" class="w-10 h-10 text-brand-green"></i></div>
+                        <h3 class="text-xl font-bold text-gray-900">Addis Belayneh</h3>
+                        <p class="text-brand-green font-semibold text-sm mt-1 mb-4">Healthcare & Therapy Coordinator</p>
+                        <p class="text-gray-600 text-sm leading-relaxed">Manages medical interventions, therapy
+                            services, and the assistive device program for children across regions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GOVERNANCE -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div class="reveal">
+                        <span class="section-label">Governance</span>
+                        <h2 class="text-3xl font-black text-gray-900 mt-2 mb-6">Accountability You Can Trust</h2>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4 bg-white p-5 rounded-2xl shadow-sm">
+                                <div
+                                    class="w-10 h-10 bg-brand-light rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="users" class="w-5 h-5 text-brand-green"></i></div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">5-Member Board of Directors</h4>
+                                    <p class="text-gray-600 text-sm mt-1">Provides strategic oversight, fiduciary
+                                        responsibility, and policy direction.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4 bg-white p-5 rounded-2xl shadow-sm">
+                                <div
+                                    class="w-10 h-10 bg-brand-light rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="building-2" class="w-5 h-5 text-brand-green"></i></div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">16-Member General Assembly</h4>
+                                    <p class="text-gray-600 text-sm mt-1">Represents diverse community stakeholders and
+                                        approves major organizational decisions.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4 bg-white p-5 rounded-2xl shadow-sm">
+                                <div
+                                    class="w-10 h-10 bg-brand-light rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="file-check" class="w-5 h-5 text-brand-green"></i></div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">Annual Independent Audits</h4>
+                                    <p class="text-gray-600 text-sm mt-1">Finances are independently audited every year
+                                        to ensure full transparency and donor confidence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal reveal-delay-1">
+                        <div class="bg-brand-dark text-white p-8 rounded-3xl">
+                            <div class="flex items-center gap-3 mb-6">
+                                <i data-lucide="shield-check" class="w-8 h-8 text-brand-yellow"></i>
+                                <h3 class="text-xl font-bold">Our Commitments</h3>
+                            </div>
+                            <ul class="space-y-4">
+                                <li class="flex items-start gap-3">
+                                    <div class="w-2 h-2 rounded-full bg-brand-yellow flex-shrink-0 mt-2"></div><span
+                                        class="text-gray-300 text-sm">Zero-tolerance Code of Conduct for all staff and
+                                        volunteers</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <div class="w-2 h-2 rounded-full bg-brand-yellow flex-shrink-0 mt-2"></div><span
+                                        class="text-gray-300 text-sm">Comprehensive Children Safeguarding Policy</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <div class="w-2 h-2 rounded-full bg-brand-yellow flex-shrink-0 mt-2"></div><span
+                                        class="text-gray-300 text-sm">Finance Policy with dual-authorization
+                                        controls</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <div class="w-2 h-2 rounded-full bg-brand-yellow flex-shrink-0 mt-2"></div><span
+                                        class="text-gray-300 text-sm">Protected whistleblower reporting channels</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <div class="w-2 h-2 rounded-full bg-brand-yellow flex-shrink-0 mt-2"></div><span
+                                        class="text-gray-300 text-sm">ACSO licensing and regulatory compliance</span>
+                                </li>
+                            </ul>
+                            <a href="safeguarding.html"
+                                class="mt-6 inline-flex items-center gap-2 text-brand-yellow font-semibold text-sm hover:gap-3 transition-all">View
+                                Our Policies <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-dark text-white pt-16 pb-8 border-t-4 border-brand-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+                <div class="md:col-span-2">
+                    <div class="flex items-center gap-3 mb-5"><img src="assets/images/LOGO ADEY.jpg" alt="Adey CPCA"
+                            class="h-12 w-12 rounded-full object-cover border-2 border-brand-yellow">
+                        <div>
+                            <div class="font-bold text-xl">Adey CPCA</div>
+                            <div class="text-xs text-gray-400">Cerebral Palsy Charitable Association</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-5">A non-profit organization licensed by ACSO,
+                        Ethiopia, dedicated to supporting children with Cerebral Palsy and their families.</p>
+                    <div class="flex gap-3">
+                        <a href="https://t.me/Adeycp" target="_blank"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-brand-green hover:text-white transition-all"><i
+                                data-lucide="send" class="w-4 h-4"></i></a>
+                        <a href="https://chat.whatsapp.com/EP0ZZh9zK2AIDi8P2o9RGk" target="_blank"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-brand-green hover:text-white transition-all"><i
+                                data-lucide="message-circle" class="w-4 h-4"></i></a>
+                        <a href="https://www.tiktok.com/@adey_cp" target="_blank"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-brand-green hover:text-white transition-all"><i
+                                data-lucide="music" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-brand-yellow font-bold mb-5 uppercase tracking-wider text-xs">Pages</h3>
+                    <ul class="space-y-2.5">
+                        <li><a href="index.html"
+                                class="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-brand-green"></i> Home</a></li>
+                        <li><a href="who-we-are.html"
+                                class="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-brand-green"></i> Who We Are</a>
+                        </li>
+                        <li><a href="what-we-do.html"
+                                class="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-brand-green"></i> What We Do</a>
+                        </li>
+                        <li><a href="get-involved.html"
+                                class="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-brand-green"></i> Get Involved</a>
+                        </li>
+                        <li><a href="events.html"
+                                class="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-brand-green"></i> Events</a></li>
+                        <li><a href="donate.html"
+                                class="text-brand-yellow text-sm flex items-center gap-2 font-semibold"><i
+                                    data-lucide="heart" class="w-3 h-3"></i> Donate</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-brand-yellow font-bold mb-5 uppercase tracking-wider text-xs">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3"><i data-lucide="map-pin"
+                                class="w-4 h-4 text-brand-green flex-shrink-0 mt-0.5"></i><span
+                                class="text-gray-400 text-sm">Lemi Kura Sub city,<br>Addis Ababa, Ethiopia</span></li>
+                        <li class="flex items-center gap-3"><i data-lucide="phone"
+                                class="w-4 h-4 text-brand-green flex-shrink-0"></i><a href="tel:+251928356125"
+                                class="text-gray-400 hover:text-white text-sm">+251 92 835 6125</a></li>
+                        <li class="flex items-center gap-3"><i data-lucide="mail"
+                                class="w-4 h-4 text-brand-green flex-shrink-0"></i><a href="mailto:adeycp@gmail.com"
+                                class="text-gray-400 hover:text-white text-sm">adeycp@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">© 2026 Adey Cerebral Palsy Charitable Association. All rights reserved.
+                </p>
+                <div class="flex gap-4 text-sm"><a href="safeguarding.html"
+                        class="text-gray-500 hover:text-white transition-colors">Safeguarding Policy</a><span
+                        class="text-gray-700">•</span><a href="safeguarding.html"
+                        class="text-gray-500 hover:text-white transition-colors">Finance Policy</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => { navbar.classList.toggle('nav-scrolled', window.scrollY > 20); });
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIconOpen = document.getElementById('menu-icon-open');
+        const menuIconClose = document.getElementById('menu-icon-close');
+        mobileMenuBtn.addEventListener('click', () => { mobileMenu.classList.toggle('open'); menuIconOpen.classList.toggle('hidden'); menuIconClose.classList.toggle('hidden'); });
+        document.querySelectorAll('.mobile-link').forEach(l => l.addEventListener('click', () => { mobileMenu.classList.remove('open'); menuIconOpen.classList.remove('hidden'); menuIconClose.classList.add('hidden'); }));
+        const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); observer.unobserve(e.target); } }); }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>
